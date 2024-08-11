@@ -101,6 +101,13 @@ def Bag_cleaner():
 
         print("CONTINUING AUTOFARMER")
 
+        """
+        improvements to put on auto_discard
+        1)make it faster some things need to be adjusted
+        2)
+        """
+
+
 
 if __name__ == "__main__":
     time.sleep(1)

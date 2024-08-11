@@ -51,6 +51,15 @@ def auto_refiner():
                 continue  # Go to the next refinement
             else:
                 break  # Exit if the refinement is not complete
+
+            """
+            improvements needed
+            1)need screen or element detection
+            2)need to detect if its plus s already then cleanly quit the refine ui
+            3)maybe try to refine multiple equipments
+            
+            
+            """
 if __name__ == "__main__":
     time.sleep(2) #switching tabsp
     auto_refiner()

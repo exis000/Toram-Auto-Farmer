@@ -25,7 +25,7 @@ def wait_for_image(image_path: str, confidence=0.75, timeout=5, region=None) -> 
 
 def click_image(image_path: str, confidence=0.75,region=None, timeout=5, double_click=False, ) -> bool:
     """
-    Clicks on an image if found within the timeout.
+    Clicks on an image if found within the timeout i think should lower the timeout more
 
     :param image_path: Path to the image file.
     :param confidence: The confidence level to match the image.
@@ -46,7 +46,7 @@ def click_image(image_path: str, confidence=0.75,region=None, timeout=5, double_
             return True
     return False
 
-def gift_item():
+def Auto_gifter():
     selecting_player_to_gift_images = [# str(imagePATH),(CONFIDENCE),(REGION)
         ("auto_gifter_images/send_gift_mail.png", 0.90, (1300, 750, 1000, 200)), 
         ("auto_gifter_images/send_gift_friend.png", 0.75, (800, 1100, 1000, 400)),
@@ -106,13 +106,3 @@ def gift_item():
         else:
             print("Gifting limit reached or max scrolls reached")
             break
-# Start gifting process
-
-discard_condition = False
-
-if not discard_condition:
-    # Start the gifting process
-    keyboard.press("c")
-    if wait_for_image("auto_gifter_images/mailbox.png", timeout=5):  # Wait for mailbox to appear
-        click_image("auto_gifter_images/mailbox.png", timeout=5, region=(1300, 1100, 1000, 200))
-        gift_item()
