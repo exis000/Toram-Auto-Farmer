@@ -70,7 +70,7 @@ def Auto_farm():
         Auto_farmer needed improvements
         1)make it run smoothly with less bugs
         2)replace time.sleep?
-        3)have a clean exit through the code whenever u want to stop it or it should stopc
+        3)have a clean exit through the code whenever u want to stop it or it should stopcc
         
         """
      
