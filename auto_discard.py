@@ -88,6 +88,8 @@ def Bag_cleaner():
         
         if not item_discarded:
             print("rawr")
+            keyboard.press("Esc")
+            time.sleep(0.2)
             
             """start gifting """
             keyboard.press("c")
@@ -95,15 +97,17 @@ def Bag_cleaner():
             time.sleep(0.5)
 
             click_image("auto_gifter_images/mailbox.png", region=(1300, 1100, 1000, 200))
-            
+
             time.sleep(0.5)
 
             auto_gifter.Auto_gifter() #start auto gifting
+        else:
+
 
         
-        keyboard.press("Esc") # remove inventory and then continue the autofarmer
+            keyboard.press("Esc") # remove inventory and then continue the autofarmer
 
-        print("CONTINUING AUTOFARMER")
+            print("CONTINUING AUTOFARMER")
 
         """
         improvements to put on auto_discard
