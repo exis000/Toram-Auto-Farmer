@@ -82,8 +82,6 @@ def Auto_farm():
 
 if __name__ == "__main__":
     time.sleep(2)  # Delay to change tabs or prepare
-    print("starting main") #rawr
-    print("test")
     Auto_farm()
     
 
