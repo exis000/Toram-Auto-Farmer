@@ -92,7 +92,11 @@ def Bag_cleaner():
             """start gifting """
             keyboard.press("c")
 
+            time.sleep(0.5)
+
             click_image("auto_gifter_images/mailbox.png", region=(1300, 1100, 1000, 200))
+            
+            time.sleep(0.5)
 
             auto_gifter.Auto_gifter() #start auto gifting
 
@@ -109,9 +113,9 @@ def Bag_cleaner():
 
 
 
-if __name__ == "__main__":
-    time.sleep(1)
-    Bag_cleaner()
+# if __name__ == "__main__":
+#     time.sleep(1)
+#     Bag_cleaner()
 
 
 

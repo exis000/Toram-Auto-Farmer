@@ -43,7 +43,6 @@ def Auto_farm():
             Cast_buff("3", SHORT_BUFF_SLEEP)
             last_healing_song_time = current_time  # Update last_healing_song_time to current time
 
-        # Perform farming actions
         pyautogui.press("7")  # Go to view mode
 
         time.sleep(BACKWARDS_WALK_SLEEP)
@@ -57,18 +56,24 @@ def Auto_farm():
 
         # Perform cyclone action multiple times
         for _ in range(100):  # Adjust the range as needed
-            pyautogui.hotkey("2")  # Use cyclone
+            pyautogui.hotkey("2")  # Use cyclone222222227
             time.sleep(ACTION_SLEEP)
 
         pyautogui.press("7")  # Exit view mode if necessary
 
-        time.sleep(0.5)  # Sleep briefly to avoid high CPU usage
+        # Sleep briefly to avoid high CPU usage
 
         auto_discard.Bag_cleaner()
 
+        time.sleep(1)
+
+        
+
+
+
         """
         Auto_farmer needed improvements
-        1)make it run smoothly with less bugs
+        1)make it run smoothly with less bugs22222222222
         2)replace time.sleep?
         3)have a clean exit through the code whenever u want to stop it or it should stopcc
         
