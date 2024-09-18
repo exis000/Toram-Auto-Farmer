@@ -5,27 +5,18 @@
 -automatic farm 
 
   -buff recasting
-  
   -bag cleaner(cleans up every type of material except summershell can be set to any other mats)
-  
   -uses image recognition with region for fast detection
-  
   -can be set to discard which type of mats only to discard
-  
   -adjustable
   
 -auto gifter
 
   -fast gifting
-  
   -also uses image recognition
-  
   -has waiting for screen function so it can adjust depending if your device lagged
-
--auto refiner
-
+  -auto refiner
   -uses same image recognition
-  
   -adjustable
 
 ### improvements to be made
@@ -33,21 +24,16 @@
 Auto_farmer needed improvements
 
 1)make it run smoothly with less bugs
-
 2)replace time.sleep?
-
 3)have a clean exit through the code whenever u want to stop it or it should stop
-        
+
 auto_gifter needed improvements
 
 1)using memory loading for faster detection
-
 2)use other lib for faster image recognition
-
 3)adjustable region
 
 auto_refiner needed improvements
 
 1)plus S detector
-
 2)refining multiple equipments
