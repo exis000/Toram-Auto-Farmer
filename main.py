@@ -56,7 +56,7 @@ def Auto_farm():
 
         # Perform cyclone action multiple times
         for _ in range(100):  # Adjust the range as needed
-            pyautogui.hotkey("2")  # Use cyclone222222227
+            pyautogui.hotkey("2")  # Use cyclone
             time.sleep(ACTION_SLEEP)
 
         pyautogui.press("7")  # Exit view mode if necessary
@@ -73,7 +73,7 @@ def Auto_farm():
 
         """
         Auto_farmer needed improvements
-        1)make it run smoothly with less bugs22222222222
+        1)make it run smoothly with less bugs
         2)replace time.sleep?
         3)have a clean exit through the code whenever u want to stop it or it should stopcc
         
