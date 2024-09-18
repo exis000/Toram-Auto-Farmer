@@ -1,6 +1,6 @@
 ## **An automated toram cyclone bot farmer with auto summershell gifting**
 
-**description** an automated bot for cyclone farmer users that has accurate buff recasting casting(brave aura, quick aura and healing song) and spams cyclone and some few other automation using fast image recognition on auto refining, auto discard item (when bag full), and auto summershell gifting, the code can be modified to fit what type of farmer character you use just change the "hotkeys" to press the hotkeys you have and maybe add some more.
+**description** an automated bot for cyclone farmer users that has accurate buff recasting casting(brave aura, quick aura and healing song) and spams cyclone and some few other automation using fast image recognition on auto refining, auto discard item (when bag full), and auto summershell gifting, the code can be modified to fit what type of farmer character you use just change the "hotkeys" to press the hotkeys you have and maybe add some more.(for opened browser)
 
 -automatic farm 
   -buff recasting
@@ -21,7 +21,7 @@
 ### improvements to be made
 
 Auto_farmer needed improvements
-1)make it run smoothly with less bugs22222222222
+1)make it run smoothly with less bugs
 2)replace time.sleep?
 3)have a clean exit through the code whenever u want to stop it or it should stopcc
         
